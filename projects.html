@@ -1,0 +1,63 @@
+<html>
+<head>
+	<title>HBD</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Shadows+Into+Light" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script> 
+
+	<script src="js/jquery.js"></script>
+	<script src="js/typeit.min.js"></script>	
+	<script> 
+		$(document).ready(function(){
+			$('.proj-type-it').typeIt({
+    			speed: 90,
+    			breakLines: false,
+    			autoStart: false
+  	  		});
+
+			$("body").hide().fadeIn(1200);
+
+		});
+	</script>
+</head>
+
+<body>
+	<div id="project-container">
+		<div id="project-logo">
+			<h1>Pictures</h1>
+		</div>
+		<div id="nav-bar">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="projects.html">Pictures</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="travel.html">Travel</a></li>
+				<li><a href="interests.html">Interests</a></li>
+			</ul>
+		</div>
+		<div class="project-content">
+			<div class="proj-pic-container">
+				<img class="proj-pic" src="assets/img/wedding.jpg">
+			</div>
+			<div class="proj-description-container">
+				<div class="project-title">
+					<div class="proj-type-it">
+						Wedding Day
+					</div>
+				</div>
+				<div class="project-date">
+					March 25, 2017 | Pasadena, CA
+				</div>
+				<div class="languages">
+					Kim and Andy
+				</div>
+				<div class="description">
+					Kim and Andy were married on March 25 and went on a beautiful honeymoon to Europe - they also sent me a pretty postcard. I loved it :)
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

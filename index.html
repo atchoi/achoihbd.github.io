@@ -1,0 +1,60 @@
+<html>
+<head>
+	<title>HBD</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Shadows+Into+Light" rel="stylesheet">
+	<!-- Falling Sakura Petals Plugin -->
+	<link href="assets/css/jquery-sakura.css" rel="stylesheet" type="text/css">	
+
+	<!-- TypeIt Plugin -->
+	<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/jquery-sakura.min.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+	<script src="js/typeit.min.js"></script>
+
+
+	<script>
+		$(window).load(function () {
+			$('body').sakura();
+		});
+	</script>
+	<script> 
+		$(document).ready(function(){
+			$('#type-it').typeIt({
+    			strings: ['Polo Enthusiast', 'Shoe Lover', 'Coupon Queen', 'Bestie Brother', 'Follower of Yeezus'],
+    			speed: 110,
+    			breakLines: false,
+    			autoStart: false
+  	  		});
+  	  		$("body").hide().fadeIn(1200);
+		});
+	</script>
+</head>
+
+<body>
+	<div class="container">
+		<div id="name-logo"> 
+			<h1>Happy Birthday to the Best Brother! ILY</h1>
+		</div>
+		<div id="profile-pic">
+			<img src="assets/img/profile.JPG">
+		</div>
+		<!-- TypeIt Plugin Here -->
+		<div id="type-it"></div>
+
+		<!-- Navigation Bar -->
+		<div id="nav-bar">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="projects.html">Pictures</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="travel.html">Travel</a></li>
+				<li><a href="interests.html">Interests</a></li>
+			</ul>
+		</div>
+		<!-- Include Contact Handles Here -->
+	</div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<html>
+<head>
+	<title>HBD</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Shadows+Into+Light" rel="stylesheet">
+	<!-- Falling Sakura Petals Plugin -->
+	<link href="assets/css/jquery-sakura.css" rel="stylesheet" type="text/css">	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+	<!-- TypeIt Plugin -->
+	<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script> 
+
+	<script src="js/jquery.js"></script>
+	<script src="js/typeit.min.js"></script>
+	<script src="js/jquery-sakura.min.js"></script>
+	<script src="script.js"></script>
+	<script> 
+		$(document).ready(function(){
+			$('#type-it-travel').typeIt({
+    			strings: ['Since I hear Kim and Andy are going to Thailand in 2017...btw Take Me...'],
+    			speed: 110,
+    			breakLines: false,
+    			autoStart: false
+  	  		});
+
+  	  		$("body").hide().fadeIn(1200);
+
+		});
+	</script>
+</head>
+
+<body>
+	<div id="overlay">
+		<img class="button" id="close" src="assets/img/close.png">
+	</div>
+	<div id="travel-container">
+		<div id="travel-logo">
+			<h1>Travel</h1>
+		</div>
+		<!-- TypeIt Plugin -->
+		<div id="type-it-travel"></div>
+		<!-- Navigation Bar -->
+		<div id="nav-bar">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="projects.html">Pictures</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="travel.html">Travel</a></li>
+				<li><a href="interests.html">Interests</a></li>
+			</ul>
+		</div>
+		<!-- Pictures Go Here -->
+		<div id="pic-container" class="fadeInUp">
+			<img class="picture" src="assets/img/boats.JPG">
+			<img class="picture" src="assets/img/resort.JPG">
+			<img class="picture" src="assets/img/store.JPG">
+			<img class="picture" src="assets/img/after-u.JPG">
+			<img class="picture" src="assets/img/wat-pho.JPG">
+			<img class="picture" src="assets/img/buddha.JPG">
+		</div>
+	</div>
+</body>
+</html>

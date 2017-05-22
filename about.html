@@ -1,0 +1,94 @@
+<html>
+<head>
+	<title>HBD</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Shadows+Into+Light" rel="stylesheet">
+	<!-- Falling Sakura Petals Plugin -->
+	<link href="assets/css/jquery-sakura.css" rel="stylesheet" type="text/css">	
+	<!-- TypeIt Plugin -->
+	<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/typeit.min.js"></script>
+	<script src="js/jquery-sakura.min.js"></script>
+	<script> 
+		$(document).ready(function(){
+			$('.about-type-it').typeIt({
+    			speed: 110,
+    			breakLines: false,
+    			autoStart: false
+  	  		});
+  	  		
+  	  		$("body").hide().fadeIn(1200);
+		});
+	</script>
+</head>
+
+<body>
+	<div id="about-container">
+		<div id="about-logo">
+			<h1>
+				About
+			</h1>
+		</div>
+		<div id="nav-bar">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="projects.html">Pictures</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="travel.html">Travel</a></li>
+				<li><a href="interests.html">Interests</a></li>
+			</ul>
+		</div>
+		<div id="about-pic-container">
+			<img id="about-picture" src="assets/img/andy-1.jpg">
+		</div>
+		<div id="about-description-container">
+			<div class="type-it-header">
+
+				<div class="about-type-it">
+					About Andy
+				</div>
+			</div>
+			<div id="about-description">
+				Hello My name is Hannah and I created this site for my brother! Happy Birthday Po-bear! I just wanted to say how lucky I am to have the greatest brother in the world. Even though I annoy you a lot and make you smh all the time, I'm glad that God gave me a best friend to grow up with. From hiking in Zion to letting me tag along to Ed Sheeran concerts, I have had so many great memories with you and I can't wait to share another 22+ years with my Po. Thanks for being the most awesome older brother I know and I'm so grateful to have someone like you to watch over me! HAPPY BIRTHDAY AND I HOPE 30 IS THE MOST LIT YEAR YET!
+			</div>
+			<div id="contact">
+				<div class="type-it-header">
+					Follow Po
+				</div>
+				<div id="social-media-bar">
+					<span class="icon">
+						<a href="https://www.facebook.com/armenexchange">
+							<img class="social-media-icon" src="assets/img/facebook-logo-button.png">
+						</a>
+					</span>
+					<span class="icon">
+						<a href="https://twitter.com">
+							<img class="social-media-icon" src="assets/img/twitter-logo-button.png">
+						</a>
+					</span>
+					<span class="icon">
+						<a href="https://www.instagram.com/andy_choice/">
+							<img class="social-media-icon" src="assets/img/instagram-logo.png">
+						</a>
+					</span>
+					
+				</div>
+				<div class="type-it-header">
+					Contact Andy
+				</div>
+				<div id="contact-bar">
+					<span class="icon">
+						<a href="mailto:atchoi@gmail.com?Subject=Hi%20Andy" target="_top">
+							<img class="social-media-icon" src="assets/img/closed-envelope-circle.png">
+						</a>
+					</span>
+				</div>
+			</div>			
+		</div>
+	</div>
+</body>
+</html>
